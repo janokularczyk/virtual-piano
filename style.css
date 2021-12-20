@@ -1,0 +1,76 @@
+body {
+    background-color: whitesmoke;
+}
+
+kbd {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(69, 77, 83);
+}
+
+p {
+    margin-top: 250px;
+}
+
+.pos {
+    margin-top: 150px;
+}
+
+.key {
+    border-radius: 5px;
+    text-align: center;
+    filter: drop-shadow(1px 1px 2px grey);
+}
+
+#A, #S, #D, #F, #G, #H, #J {
+    background-color: white;
+    border: solid 1px whitesmoke;
+    height: 300px;
+    width: 75px;
+}
+
+#W, #E, #T, #Y, #U {
+    background-color: black;
+    border: solid .5px dimgray;
+    height: 200px;
+    width: 50px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.white-keys {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.black-keys {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+}
+
+#W {
+    margin-right: 20px;
+}
+
+#E {
+    margin-right: 25px;
+}
+
+#T {
+    margin-right: 80px;
+}
+
+#Y {
+    margin-left: 20px;
+}
+
+#U {
+    margin-left: 20px;
+}
